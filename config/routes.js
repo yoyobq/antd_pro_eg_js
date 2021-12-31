@@ -27,7 +27,7 @@ export default [
   {
     path: '/HelloWorld',
     name: '你好世界',
-    icon: 'smile',
+    icon: 'ant-design',
     component: './HelloWorld',
   },
   {
