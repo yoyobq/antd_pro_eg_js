@@ -25,6 +25,12 @@ export default [
     component: './Welcome',
   },
   {
+    path: '/HelloWorld',
+    name: '你好世界',
+    icon: 'smile',
+    component: './HelloWorld',
+  },
+  {
     path: '/admin',
     name: 'admin',
     icon: 'crown',
