@@ -1,3 +1,13 @@
+# 写给学生的 Ant Design Pro 的配套示例代码
+
+### 需请配合[文字教程](https://www.wolai.com/pjSXdivpfvzNwXRQ8mSWrT)一起看
+
+### 这是 JS 版本，另有 TS 版本今后会逐渐完善
+
+以下是 原 AntD Pro 的说明文档
+
+---
+
 # Ant Design Pro
 
 This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
