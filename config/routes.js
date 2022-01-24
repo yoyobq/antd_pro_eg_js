@@ -31,6 +31,12 @@ export default [
     component: './HelloWorld',
   },
   {
+    path: '/Counter',
+    name: '计数器',
+    icon: 'smile',
+    component: './Counter',
+  },
+  {
     path: '/admin',
     name: 'admin',
     icon: 'crown',
