@@ -3,18 +3,18 @@ import { Card } from 'antd';
 import { useModel } from 'umi';
 
 const Counter = () => {
-  const { c, a, m } = useModel('counter', (ret) => ({
-    c: ret.counter,
-    a: ret.increment,
-    m: ret.decrement,
+  const { num, add, minus } = useModel('counter', (ret) => ({
+    num: ret.counter,
+    add: ret.increment,
+    minus: ret.decrement,
   }));
 
   return (
     <PageContainer>
       <Card>
-        <h2>{c}</h2>
-        <button onClick={a}>add by 1</button>
-        <button onClick={m}>minus by 1</button>
+        <h2>{num}</h2>
+        <button onClick={add}>add by 1</button>
+        <button onClick={minus}>minus by 1</button>
       </Card>
     </PageContainer>
   );

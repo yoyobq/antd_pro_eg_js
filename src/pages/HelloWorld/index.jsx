@@ -5,6 +5,9 @@ import { useModel } from 'umi';
 
 const HelloWorld = () => {
   const message = useModel('demoModel');
+  const { number } = useModel('counter', (ret) => ({
+    number: ret.counter,
+  }));
 
   return (
     <PageContainer>
@@ -16,6 +19,9 @@ const HelloWorld = () => {
       </Card>
       <Card>
         <div>{message}</div>
+      </Card>
+      <Card>
+        <div>{number}</div>
       </Card>
     </PageContainer>
   );
