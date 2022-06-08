@@ -26,13 +26,13 @@ export default [
   },
   {
     path: '/HelloWorld',
-    name: '你好世界',
+    name: 'hello-world',
     icon: 'ant-design',
     component: './HelloWorld',
   },
   {
     path: '/Counter',
-    name: '计数器',
+    name: 'counter',
     icon: 'smile',
     component: './Counter',
   },
@@ -41,17 +41,28 @@ export default [
     name: 'admin',
     icon: 'crown',
     access: 'canAdmin',
-    component: './Admin',
+    // component: './Welcome',
     routes: [
       {
-        path: '/admin/sub-page',
-        name: 'sub-page',
-        icon: 'smile',
-        component: './Welcome',
+        path: '/admin',
+        redirect: 'list',
       },
       {
-        component: './404',
+        path: 'list',
+        name: 'admin',
+        hideInMenu: true,
+        // icon: 'smile',
+        component: './Admin',
       },
+      {
+        path: 'sub-page',
+        name: 'sub-page',
+        // icon: 'smile',
+        component: './Welcome',
+      },
+      // {
+      //   component: './404',
+      // },
     ],
   },
   {

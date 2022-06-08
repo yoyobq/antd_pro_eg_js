@@ -1,6 +1,6 @@
-import React from 'react';
 import { PageContainer } from '@ant-design/pro-layout';
-import { Card, Alert, Typography } from 'antd';
+import { Alert, Card, Typography } from 'antd';
+import React from 'react';
 import styles from './Welcome.less';
 
 const CodePreview = ({ children }) => (
@@ -16,7 +16,7 @@ const Welcome = () => {
     <PageContainer>
       <Card>
         <Alert
-          message={'更快更强的重型组件，已经发布。'}
+          message={'更快更强的重型组件，已经发布了哦。'}
           type="success"
           showIcon
           banner

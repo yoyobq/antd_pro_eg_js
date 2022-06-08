@@ -1,14 +1,14 @@
-import React from 'react';
 import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
-import { Card, Typography, Alert } from 'antd';
 import { PageHeaderWrapper } from '@ant-design/pro-layout';
+import { Alert, Card, Typography } from 'antd';
+import React from 'react';
 
 const Admin = () => {
   return (
     <PageHeaderWrapper content={' 这个页面只有 admin 权限才能查看'}>
       <Card>
         <Alert
-          message={'更快更强的重型组件，已经发布。'}
+          message={'更快更强的重型组件，已经发布了呢。'}
           type="success"
           showIcon
           banner
