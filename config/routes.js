@@ -45,12 +45,11 @@ export default [
     routes: [
       {
         path: '/admin',
-        redirect: 'list',
+        redirect: '/admin/manager',
       },
       {
-        path: 'list',
-        name: 'admin',
-        hideInMenu: true,
+        path: '/admin/manager',
+        name: 'Manager',
         // icon: 'smile',
         component: './Admin',
       },
