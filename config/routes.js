@@ -31,6 +31,13 @@ export default [
     component: './HelloWorld',
   },
   {
+    path: '/PermissionWatcher',
+    name: '权限测试',
+    icon: 'EyeOutlined',
+    // access: 'canUser',
+    component: './PermissionWatcher',
+  },
+  {
     path: '/Counter',
     name: 'counter',
     icon: 'smile',
