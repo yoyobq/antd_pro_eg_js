@@ -11,7 +11,7 @@ import {
 } from '@ant-design/icons';
 import { LoginForm, ProFormCaptcha, ProFormCheckbox, ProFormText } from '@ant-design/pro-form';
 import { Alert, message, Tabs } from 'antd';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { history, useModel } from 'umi';
 import styles from './index.less';
 
@@ -35,6 +35,8 @@ const Login = () => {
     const userInfo = await initialState?.fetchUserInfo?.();
 
     if (userInfo) {
+      console.log(userInfo);
+      console.log(initialState);
       await setInitialState((s) => ({ ...s, currentUser: userInfo }));
     }
   };
