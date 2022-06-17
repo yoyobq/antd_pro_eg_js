@@ -32,10 +32,16 @@ export default [
   },
   {
     path: '/PermissionWatcher',
-    name: '权限测试',
+    name: 'permission-test',
     icon: 'EyeOutlined',
     // access: 'canUser',
     component: './PermissionWatcher',
+  },
+  {
+    path: '/ReqDemo',
+    name: 'data-communication',
+    icon: 'ShareAltOutlined',
+    component: './ReqDemo',
   },
   {
     path: '/Counter',
