@@ -44,6 +44,12 @@ export default [
     component: './ReqDemo',
   },
   {
+    path: '/RotueTest',
+    name: 'route-test',
+    icon: 'BranchesOutlined',
+    component: './RouteTest',
+  },
+  {
     path: '/Counter',
     name: 'counter',
     icon: 'smile',

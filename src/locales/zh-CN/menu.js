@@ -5,6 +5,7 @@ export default {
   'menu.admin': '管理页',
   'menu.admin.Manager': 'admin',
   'menu.data-communication': '数据通信',
+  'menu.route-test': '路由传值',
   'menu.permission-test': '权限测试',
   'menu.hello-world': '你好世界',
   'menu.counter': '计数器',
